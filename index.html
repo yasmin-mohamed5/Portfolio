@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin | Web Developer</title>
+    <meta name="description"
+        content="Frontend & Full-Stack Web Developer Portfolio building fast, modern, and scalable web applications.">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Yas<span class="highlight">min</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+            <a href="#contact" class="btn primary-btn d-none-sm">Let's Talk</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge"><i class="fas fa-circle text-success"
+                        style="font-size: 0.6rem; margin-right: 0.4rem;"></i>Hi I'm Yasmin👋🏻</span>
+                <h1 class="headline">I Build <span class="highlight">Fast, Modern</span>, and <span
+                        class="highlight">Scalable</span> Web Applications</h1>
+                <p class="sub-headline">Frontend Web Developer | React • TypeScript • Node.js</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn btn-large">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn btn-large">Contact Me</a>
+                </div>
+            </div>
+            <!-- <div class="hero-image">
+                <img src="./assets/images/yasmin.png" alt="my Image">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">About <span class="highlight">Me</span></h2>
+                <p class="subtitle">Transforming ideas into digital reality</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">I help businesses, startups, and organizations transform their ideas into clean,
+                        responsive, and scalable web applications.</p>
+                    <p>Whether you need a full website, a custom web platform, or improvements to your existing system,
+                        I focus on building solutions that are fast, user-friendly, and easy to maintain.</p>
+
+                    <div class="specialties-wrapper">
+                        <p class="specialties-title"><strong>I specialize in:</strong></p>
+                        <ul class="specialties-list">
+                            <li><i class="fas fa-check-circle"></i> Modern React-based web applications</li>
+                            <li><i class="fas fa-check-circle"></i> Secure backend systems with Node.js & Express</li>
+                            <li><i class="fas fa-check-circle"></i> Database-driven & real-time platforms</li>
+                            <li><i class="fas fa-check-circle"></i> Responsive designs perfectly suited for all devices
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="usp-box mt-4">
+                        <div class="usp-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div>
+                            <h4>Unique Selling Point</h4>
+                            <p>I combine strong frontend expertise with backend understanding, allowing me to build
+                                complete, scalable systems — not just beautiful interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">My <span class="highlight">Skills</span></h2>
+                <p class="subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span><span>TypeScript</span><span>JavaScript</span>
+                        <span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>Responsive Design</span>
+                    </div>
+                </div>
+                <!-- Architecture -->
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Programming & Architecture</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>OOP</span>
+                        <span>Design Patterns</span>
+                    </div>
+                </div>
+                <!-- Tools -->
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools & Workflow</h3>
+                    <div class="skill-tags">
+                        <span>Git & GitHub</span><span>Agile Collaboration</span><span>Technical Docs</span>
+                        <span>Problem Solving</span><span>Time Management</span><span>Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Offered <span class="highlight">Services</span></h2>
+                <p class="subtitle">What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Custom Web Apps</h3>
+                    <p>End-to-end development of scalable web applications tailored to your business needs using React
+                        and Node.js.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fab fa-react"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Building fast, responsive, and interactive user interfaces that enhance user experience and
+                        engagement.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Full-Stack Solutions</h3>
+                    <p>Secure backend systems, database integration, authentication systems, and API development for
+                        complete solutions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    <h3>App Optimization</h3>
+                    <p>Improving performance, fixing structural issues, cleaning code, and enhancing maintainability.
+                    </p>
+                </div>
+                <div class="service-card" style=" max-width: 600px; margin: 0 auto;">
+                    <div class="service-icon"><i class="fas fa-users-cog"></i></div>
+                    <h3>LMS & Management Systems</h3>
+                    <p>Developing role-based platforms for managing users, content, sessions, and workflows efficiently.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="portfolio section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Featured <span class="highlight">Projects</span></h2>
+                <p class="subtitle">Demonstrating my capability to solve real problems</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Workshop & Learning Management Platform</h3>
+                        <div class="problem-solution">
+                            <p><strong>Challenge:</strong> An organization needed a centralized system to manage
+                                workshops, participants, and team members efficiently.</p>
+                            <p><strong>Solution:</strong> Developed a full-featured web platform with authentication,
+                                role-based access, and database-driven content management.</p>
+                        </div>
+                        <div class="tech-stack">
+                            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                        </div>
+                        <ul class="results">
+                            <li><i class="fas fa-check"></i> Reduced manual administrative work</li>
+                            <li><i class="fas fa-check"></i> Improved workshop organization workflow</li>
+                            <li><i class="fas fa-check"></i> Enabled secure multi-role access</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Responsive Food Ordering Website</h3>
+                        <div class="problem-solution">
+                            <p><strong>Challenge:</strong> A food business needed an engaging and mobile-friendly
+                                website to display products and improve customer interaction.</p>
+                            <p><strong>Solution:</strong> Built a fully responsive website with dynamic menu filtering
+                                and intuitive navigation.</p>
+                        </div>
+                        <div class="tech-stack">
+                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        </div>
+                        <ul class="results">
+                            <li><i class="fas fa-check"></i> Improved UX on mobile devices</li>
+                            <li><i class="fas fa-check"></i> Faster navigation & discovery</li>
+                            <li><i class="fas fa-check"></i> Clean, conversion-focused interface</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Desktop Audio Player Application</h3>
+                        <div class="problem-solution">
+                            <p><strong>Challenge:</strong> Required a scalable desktop audio player with structured,
+                                maintainable code.</p>
+                            <p><strong>Solution:</strong> Designed and developed an audio player with playback controls,
+                                modular architecture, and OOP structure.</p>
+                        </div>
+                        <div class="tech-stack">
+                            <span>C++</span><span>JUCE Framework</span><span>OOP</span>
+                        </div>
+                        <ul class="results">
+                            <li><i class="fas fa-check"></i> Clean modular codebase & scalable architecture</li>
+                            <li><i class="fas fa-check"></i> Smooth audio performance</li>
+                            <li><i class="fas fa-check"></i> Responsive GUI</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Image Processing Application</h3>
+                        <div class="problem-solution">
+                            <p><strong>Challenge:</strong> Needed an application capable of performing multiple image
+                                transformations efficiently.</p>
+                            <p><strong>Solution:</strong> Built an image processing system implementing filters like
+                                grayscale, edge detection, and blur using modular architecture.</p>
+                        </div>
+                        <div class="tech-stack">
+                            <span>C++</span><span>OOP Concepts</span>
+                        </div>
+                        <ul class="results">
+                            <li><i class="fas fa-check"></i> Efficient filter execution</li>
+                            <li><i class="fas fa-check"></i> Reusable and extensible code structure</li>
+                            <li><i class="fas fa-check"></i> Organized processing pipeline</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Education & <span class="highlight">Training</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Science</h3>
+                        <h4>Cairo University</h4>
+                        <p>Strong foundation in data structures, databases, software engineering, and system design.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Front-End Development Certification</h3>
+                        <h4>Sprints x Microsoft</h4>
+                        <p>Advanced practical training in modern frontend development and real-world project
+                            implementation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>React Front-End Development Trainee</h3>
+                        <h4>DEPI</h4>
+                        <p>Specialized practical training in React Development, TypeScript, Node.js & Express.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Client <span class="highlight">Testimonials</span></h2>
+                <p class="subtitle">What people say about my work</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>“Yasmin delivered exactly what we needed. The platform she built streamlined our workflow and
+                        improved efficiency significantly.”</p>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>“Professional, organized, and highly skilled. Communication was smooth and deadlines were
+                        respected.”</p>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>“Her ability to understand requirements and translate them into a working system was impressive.”
+                    </p>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section bg-secondary">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-text">
+                    <h2>Ready to build a <span class="highlight">scalable</span> application?</h2>
+                    <p>If you're looking for a reliable developer who delivers clean code, scalable systems, and modern
+                        user experiences — let's work together to turn your idea into a high-performing digital
+                        solution.</p>
+                    <div class="availability">
+                        <div><i class="fas fa-check-circle text-success" style="margin-right: 0.5rem;"></i>Long-term
+                            collaborations</div>
+                        <div><i class="fas fa-check-circle text-success" style="margin-right: 0.5rem;"></i>Project-based
+                            work</div>
+                        <div><i class="fas fa-check-circle text-success" style="margin-right: 0.5rem;"></i>Full web
+                            application development</div>
+                    </div>
+                </div>
+                <div class="contact-action">
+                    <!-- Replace generic email with a functional action or actual email -->
+                    <a href="mailto:[yasminnnabil5@gmail.com]" class="btn primary-btn btn-large">
+                        <i class="fas fa-paper-plane" style="margin-right: 0.5rem;"></i> Discuss Your Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Yas<span class="highlight">min</span>.</div>
+                <div class="social-links">
+                    <a href="https://github.com/yasmin-mohamed5" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/yasmin-mohamed-react?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:[yasminnnabil5@gmail.com]" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Yasmin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
